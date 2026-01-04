@@ -15,10 +15,10 @@ function ProjectsSection() {
   };
 
   return (
-    <div className="px-16 pt-12 bg-amber-100 h-full flex flex-col">
+    <div className="px-16 pt-12 bg-amber-100 min-h-full flex flex-col">
       {/* INTRO Section */}
       <p className="text-gray-400 mt-8 mb-2 font-semibold text-sm">INTRO</p>
-      <div className="w-[85%]">
+      <div className="w-[80%]">
         <p className="text-sm">
           Hello, I am Saakshi Kobarne, a computer science graduate from Pune
           University. I have deep interest in coding and have mostly explored
@@ -29,7 +29,6 @@ function ProjectsSection() {
 
       {/* PROJECTS Section */}
       <p className="text-gray-400 mt-8 mb-2 font-semibold text-sm">PROJECTS</p>
-
       <div className="relative w-full">
         <button
           className="absolute left-0 top-1/2 border-2 border-amber-300 transform -translate-y-1/2 bg-amber-200 text-amber-400 font-extrabold px-3 pt-1 pb-1.5 rounded-full shadow-md shadow-amber-50"
@@ -58,6 +57,25 @@ function ProjectsSection() {
         >
           {">"}
         </button>
+      </div>
+
+      {/* EXPERIENCE section  */}
+      <p className="text-gray-400 mt-8 mb-2 font-semibold text-sm">EXPERIENCE</p>
+      <div className="w-[75%] flex flex-col gap-3">
+          <div className="text-white h-28 rounded-sm bg-amber-200 border-2 border-amber-300">
+            <p>EXPERIENCE</p>
+            <p>Internship at XYZ Company</p>
+          </div>
+
+          <div className="text-white h-28 rounded-sm bg-amber-200 border-2 border-amber-300">
+            <p>EXPERIENCE</p>
+            <p>Internship at XYZ Company</p>
+          </div>
+
+          <div className="text-white h-28 rounded-sm bg-amber-200 border-2 border-amber-300">
+            <p>EXPERIENCE</p>
+            <p>Internship at XYZ Company</p>
+          </div>
       </div>
     </div>
   );
