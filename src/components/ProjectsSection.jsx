@@ -19,8 +19,8 @@ function ProjectsSection() {
       {/* INTRO Section */}
       <p className="text-gray-400 mt-8 mb-2 font-semibold text-sm">INTRO</p>
       <div className="w-[80%]">
-        <p className="text-sm">
-          Hello, I am Saakshi Kobarne, a computer science graduate from Pune
+        <p className="text-md">
+          Hello, I am Saakshi, a computer science graduate from Pune
           University. I have deep interest in coding and have mostly explored
           technologies like Web development, full stack development, app
           development, AI and am also interested in quantum technologies.
@@ -67,15 +67,27 @@ function ProjectsSection() {
             <p>Internship at XYZ Company</p>
           </div>
 
-          <div className="text-white h-28 rounded-sm bg-amber-200 border-2 border-amber-300">
-            <p>EXPERIENCE</p>
+          <div className="text-amber-900 p-4 h-28 rounded-sm bg-amber-200 border-2 border-amber-300">
+            <p className="font-semibold">EXPERIENCE</p>
             <p>Internship at XYZ Company</p>
           </div>
 
-          <div className="text-white h-28 rounded-sm bg-amber-200 border-2 border-amber-300">
-            <p>EXPERIENCE</p>
+          <div className="h-28 bg-amber-200 text-amber-900 rounded-2xl border-b-6 border-r-6 border-amber-900 shadow-lg p-4">
+            <p className="font-semibold">EXPERIENCE</p>
             <p>Internship at XYZ Company</p>
           </div>
+
+          <div className="h-28 bg-amber-200 text-amber-900 rounded-2xl border-b-6 border-r-6 border-slate-900 shadow-lg p-4">
+            <p className="font-semibold">EXPERIENCE</p>
+            <p>Internship at XYZ Company</p>
+          </div>
+
+  
+      </div>
+
+      <p className="text-gray-400 mt-8 mb-2 font-semibold text-sm">TESTIMONIALS</p>
+      <div>
+
       </div>
     </div>
   );

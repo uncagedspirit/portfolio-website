@@ -24,7 +24,7 @@ function BioSection() {
           />
         </div>
 
-        <h1 className="text-2xl font-semibold">Saakshi Kobarne</h1>
+        <h1 className="text-2xl font-semibold">Saakshi</h1>
         <p className="text-gray-700 mb-4">
           Full Stack Developer | Open Source Enthusiast
         </p>
@@ -36,7 +36,7 @@ function BioSection() {
         </p>
 
         <p className="text-gray-400 mt-8 mb-2 font-semibold text-sm">CONTACT</p>
-        <p>email: saakshikobarne@gmail.com</p>
+        <p>email: saakshi@mail.com</p>
 
         <p className="text-gray-400 mt-8 mb-2 font-semibold text-sm">SKILLS</p>
         <div className="flex flex-wrap gap-1">
