@@ -1,5 +1,5 @@
-import hsbc from "../assets/experience/hsbc.webp"
-import cctech from "../assets/experience/cctech.webp"
+import { experienceLogos } from "../assets/experience";
+const { hsbc, cctech } = experienceLogos;
 
 export const experienceData = [
   {
