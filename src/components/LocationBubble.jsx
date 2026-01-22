@@ -14,9 +14,7 @@ function LocationBubble({ images, loading }) {
   }, [images]);
 
   if (loading) {
-    return (
-      <></>
-    );
+    return <></>;
   }
 
   if (!images.length) return null;
@@ -34,4 +32,4 @@ function LocationBubble({ images, loading }) {
   );
 }
 
-export default LocationBubble
+export default LocationBubble;
