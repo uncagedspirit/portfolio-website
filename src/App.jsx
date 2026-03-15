@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import BioSection from "./components/BioSection";
 import RightSection from "./components/RightSection";
 import AllProjects from "./components/AllProjects";
@@ -8,11 +8,9 @@ import ExperienceDetail from "./components/ExperienceDetail";
 import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
-  const basename = import.meta.env.BASE_URL;
-
   return (
     <ThemeProvider>
-      <Router basename={basename}>
+      <Router>
         <Routes>
           <Route
             path="/"
