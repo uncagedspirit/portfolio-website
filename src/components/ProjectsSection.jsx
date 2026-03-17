@@ -19,7 +19,7 @@ function ProjectsSection() {
               <div
                 key={index}
                 onClick={() => navigate(`/projects/${project.projectId}`)}
-                className="pf-card pf-card-hover group relative h-56 sm:h-60 p-4 sm:p-6 overflow-hidden transition-colors duration-300"
+                className="pf-card pf-card-hover group relative h-80 sm:h-78 p-4 sm:p-6 overflow-hidden transition-colors duration-300"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 scale-100 group-hover:scale-110"
@@ -33,7 +33,7 @@ function ProjectsSection() {
                     <p className="pf-body-sm text-white mx-2 my-1 group-hover:pf-text-body transition-colors duration-300">{project.description}</p>
                   </div>
                   <video src={project.video} muted autoPlay loop playsInline
-                    className="rounded-md shadow-md w-full h-24 sm:h-28 object-cover transition-transform duration-300 group-hover:scale-105" />
+                    className="rounded-md shadow-md w-full h-36 sm:h-44 object-cover transition-transform duration-300 group-hover:scale-105" />
                 </div>
               </div>
             );
